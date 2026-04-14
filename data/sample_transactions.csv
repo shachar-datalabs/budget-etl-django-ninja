@@ -1,0 +1,16 @@
+date,product,category,amount
+2024-01-01,Milk,Food,10
+2024-01-01,Bread,Food,8
+2024-01-02,Bus,Transport,5
+2024-01-02,Movie,Leisure,40
+2024-01-03,Electricity,Bills,200
+2024-01-03,Shirt,Shopping,120
+2024-01-04,Apple,Food,6
+2024-01-04,Taxi,Transport,30
+2024-01-05,Coffee,Food,15
+2024-01-05,Water,Bills,90
+2024-01-06,Game,Leisure,70
+2024-01-06,Socks,Shopping,35
+2024-01-07,InvalidRow,Food,abc
+2024-01-07,Refund,Shopping,-20
+2024-01-08,,Food,12

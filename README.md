@@ -72,6 +72,18 @@ cp .env.example .env
 python manage.py migrate
 python manage.py runserver
 ```
+## API Endpoints
+
+- GET /api/health
+- POST /api/etl/run
+- GET /api/transactions
+
+  ## How it works
+
+1. CSV file is loaded from data folder
+2. ETL process parses and validates data
+3. Data is stored in PostgreSQL
+4. API exposes endpoints for querying data
 
 ## הערות
 - אפשר להחליף את קובץ ה-CSV בקלות.
